@@ -1,4 +1,5 @@
 🏨 Data Analysis for Hotel Booking
+
 🚀 By aakash tomar
 
 This project analyzes hotel booking data to find relationships between bookings, cancellations, and other factors. Using data visualization and statistical analysis, we uncover key trends that affect hotel reservations. 📊📉
