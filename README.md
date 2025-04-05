@@ -38,6 +38,17 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Load dataset
+df = pd.read_csv("hotel_booking_data.csv")
+
+# Display first 5 rows
+print(df.head())
+
+# Visualizing cancellations vs. bookings
+sns.countplot(x=df["is_canceled"])
+plt.title("Booking vs. Cancellations")
+plt.show()
+
 
 
 💡 How to Use
